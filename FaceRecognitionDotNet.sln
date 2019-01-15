@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmark", "examples\Bench
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceDetection", "examples\FaceDetection\FaceDetection.csproj", "{49ED9EF1-7E3E-4959-B152-52545B973906}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceRecognitionDotNet.Extensions", "src\FaceRecognitionDotNet.Extensions\FaceRecognitionDotNet.Extensions.csproj", "{DBB8054B-A309-4950-869B-2D0989C05626}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,16 +47,16 @@ Global
 		{85AB4F26-48B7-4A21-A6C7-14EA6608B539}.ReleaseMac|Any CPU.Build.0 = Release|Any CPU
 		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.DebugLinux|Any CPU.ActiveCfg = DebugLinux|Any CPU
-		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.DebugLinux|Any CPU.Build.0 = DebugLinux|Any CPU
-		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.DebugMac|Any CPU.ActiveCfg = DebugMac|Any CPU
-		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.DebugMac|Any CPU.Build.0 = DebugMac|Any CPU
+		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.DebugLinux|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.DebugLinux|Any CPU.Build.0 = Debug|Any CPU
+		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.DebugMac|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.DebugMac|Any CPU.Build.0 = Debug|Any CPU
 		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.ReleaseLinux|Any CPU.ActiveCfg = ReleaseLinux|Any CPU
-		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.ReleaseLinux|Any CPU.Build.0 = ReleaseLinux|Any CPU
-		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.ReleaseMac|Any CPU.ActiveCfg = ReleaseMac|Any CPU
-		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.ReleaseMac|Any CPU.Build.0 = ReleaseMac|Any CPU
+		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.ReleaseLinux|Any CPU.ActiveCfg = Release|Any CPU
+		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.ReleaseLinux|Any CPU.Build.0 = Release|Any CPU
+		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.ReleaseMac|Any CPU.ActiveCfg = Release|Any CPU
+		{BC72B97F-9631-4550-8DAC-5F96FF7DE9EB}.ReleaseMac|Any CPU.Build.0 = Release|Any CPU
 		{EB355E8B-8070-4221-9CB9-7BD0655DC9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EB355E8B-8070-4221-9CB9-7BD0655DC9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB355E8B-8070-4221-9CB9-7BD0655DC9A8}.DebugLinux|Any CPU.ActiveCfg = Debug|Any CPU
@@ -103,6 +105,18 @@ Global
 		{49ED9EF1-7E3E-4959-B152-52545B973906}.ReleaseLinux|Any CPU.Build.0 = Release|Any CPU
 		{49ED9EF1-7E3E-4959-B152-52545B973906}.ReleaseMac|Any CPU.ActiveCfg = Release|Any CPU
 		{49ED9EF1-7E3E-4959-B152-52545B973906}.ReleaseMac|Any CPU.Build.0 = Release|Any CPU
+		{DBB8054B-A309-4950-869B-2D0989C05626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB8054B-A309-4950-869B-2D0989C05626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB8054B-A309-4950-869B-2D0989C05626}.DebugLinux|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB8054B-A309-4950-869B-2D0989C05626}.DebugLinux|Any CPU.Build.0 = Debug|Any CPU
+		{DBB8054B-A309-4950-869B-2D0989C05626}.DebugMac|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB8054B-A309-4950-869B-2D0989C05626}.DebugMac|Any CPU.Build.0 = Debug|Any CPU
+		{DBB8054B-A309-4950-869B-2D0989C05626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB8054B-A309-4950-869B-2D0989C05626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB8054B-A309-4950-869B-2D0989C05626}.ReleaseLinux|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB8054B-A309-4950-869B-2D0989C05626}.ReleaseLinux|Any CPU.Build.0 = Release|Any CPU
+		{DBB8054B-A309-4950-869B-2D0989C05626}.ReleaseMac|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB8054B-A309-4950-869B-2D0989C05626}.ReleaseMac|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,6 +128,7 @@ Global
 		{D0CB4212-16D2-4DE5-8A26-83AF5E24C7D3} = {FEEAC07F-70D7-4C12-B92C-153CEE0F2539}
 		{32599FBF-8E91-43BA-B0B6-38E3C7A02530} = {FEEAC07F-70D7-4C12-B92C-153CEE0F2539}
 		{49ED9EF1-7E3E-4959-B152-52545B973906} = {FEEAC07F-70D7-4C12-B92C-153CEE0F2539}
+		{DBB8054B-A309-4950-869B-2D0989C05626} = {2F845E5F-E6B9-46D5-B5D8-52BEE4B463F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4D44C572-D749-4A76-A199-8C598A08AE8A}
