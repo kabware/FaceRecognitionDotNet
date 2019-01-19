@@ -58,7 +58,7 @@ namespace FaceRecognitionDotNet.Extensions
                 else
                     votes[label] = 1;
             }
-            
+
             return votes.Max(pair => pair.Value);
         }
 
@@ -84,5 +84,5 @@ namespace FaceRecognitionDotNet.Extensions
         }
 
     }
-
+    
 }
